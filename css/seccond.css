@@ -1,0 +1,27 @@
+
+
+/* BMI Index color */
+
+.lowIndex{
+    background-color: #5eace0;
+    color: white;
+}
+.idealIndex{
+    background-color: #2ecc71;
+    color: white;
+}
+
+.ObesityIndex{
+    background-color: #f1c40f;
+    color: white;
+}
+
+.ObesityIndex1{
+    background-color: #f39c12;
+    color: white;
+}
+
+.ObesityIndex2{
+    background-color: #c0392b;
+    color: white;
+}

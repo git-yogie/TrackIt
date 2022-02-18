@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "title":"Kurus",
+        "index_mass":"Kurang Berat Badan",
+        "deskripsi" :"Level Status BMI Anda adalah Kurang berat badan. Tingkatkan berat badan ideal Anda dengan berkonsultasi dengan ahli gizi Anda"
+    },
+    {
+        "id":2,
+        "title":"Ideal",
+        "index_mass":"Berat Badan Ideal",
+        "deskripsi" :"Level Status BMI Anda adalah Normal. Pertahankan berat badan Anda dengan makanan yang sehat dan berolahraga"
+    },
+    {
+        "id":3,
+        "title":"Kelebihan Berat badan",
+        "index_mass":"Kelebihan Berat Badan",
+        "deskripsi" :"Level Status BMI Anda adalah Kelebihan berat badan. Kurangi Berat badan Anda dengan berolahraga dan batasi asupan kalori sesuai anjurkan ahli gizi Anda"
+    },
+    {
+        "id":4,
+        "title":"Obesitas Tingkat 1",
+        "index_mass":"Obesitas Tingkat 1",
+        "deskripsi" :"Level Status BMI Anda adalah Obesitas tingkat 1. Kurangi Berat badan Anda dengan berolahraga dan batasi asupan kalori sesuai anjurkan ahli gizi Anda"
+    },
+    {
+        "id":5,
+        "title":"Obesitas Tingkat 2",
+        "index_mass":"Obesitas Tingkat 2",
+        "deskripsi" :"Level Status BMI Anda adalah Obesitas tingkat 2. Kurangi Berat badan Anda dengan berolahraga dan batasi asupan kalori sesuai anjurkan ahli gizi Anda"
+    }
+
+    
+]

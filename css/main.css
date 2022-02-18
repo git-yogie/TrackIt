@@ -1,0 +1,224 @@
+@import url('seccond.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav.nav{
+    background-color: #2980b9;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.logo span{
+    color:#d35400 ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-link{
+    margin-right: 5px;
+    color: #ccdbe0 ;
+}
+
+.nav-link:hover{
+    color: white;
+}
+.Menu-group{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+/* .btn-group{
+
+
+} */
+
+.btn{
+    outline: none;
+    border: none;
+    background-color: #16a085;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.btn:hover{
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c ;
+}
+
+.container{
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* border: 1px solid black; */
+}
+
+.jumbotron{
+    margin-top: 5px;
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.jumbotron p{
+    margin-top: 10px;
+    width: 70%;
+}
+
+.form-controll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f39c12 ;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.form-controll-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-controll-input input{
+    outline: none;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-controll-input input:focus{
+    background-color: #ecf0f1;
+    border: 1px solid #e67e22;
+}
+
+.btn-input{
+    width: 50%;
+    margin-top: 10px;
+    border: none;
+    background-color: #8e44ad;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color,transform 0.3s;
+}
+
+.btn-input:hover{
+    background-color: #9b59b6;
+}
+
+.btn-input:active{
+    transform: scale(0.97);
+}
+
+.jumbotron-result{
+    margin-top: 5px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.jumbotron-result .rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotron-result .rows .index{
+    width: 40%;
+    text-align: center;
+}
+
+.jumbotron-result .rows .index h1{
+    font-size: 50px;
+}
+
+.jumbotron-result .rows .detail p{
+    text-align: left;
+}
+@media only screen and (max-width: 768px) {
+    nav.nav{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .jumbotron-result .rows{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container{
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* border: 1px solid black; */
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    nav.nav{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .container{
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* border: 1px solid black; */
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    nav.nav{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .jumbotron-result .rows{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container{
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* border: 1px solid black; */
+    }
+  }
